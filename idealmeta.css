@@ -1,0 +1,28 @@
+body {
+
+  text-align: center;
+  font-family: lato, sans-serif;
+  cursor: text;
+}
+
+#textInput
+{
+
+    font-size:18pt;
+}
+
+h1{
+  padding-bottom: 10px;
+    padding-top: 10px;
+    color:##00ad9f;
+}
+
+button {
+  background-color:##00ad9f;
+  color:white;
+  font-weight: 400;
+  height:40px;
+  width: 60px;
+  padding-bottom: 0px;
+
+}

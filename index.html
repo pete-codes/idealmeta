@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="idealmeta.css">
+  <link rel="stylesheet" href="idealmeta.js">
+  <script src="idealmeta.js">
+
+  </script>
+  <title>Ideal meta</title>
+</head>
+<body>
+
+<h1> Ideal Meta </h1>
+
+<p>See the number of characters in the meta title .</p>
+
+
+
+<input type="text" id="textInput" placeholder="some clickbait title">
+<button id="titleButton" onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<p id="explanation"> </p>
+<script>
+function myFunction() {
+var str = document.getElementById("textInput").value;
+var n = str.length;
+document.getElementById("demo").innerHTML = n;
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>
